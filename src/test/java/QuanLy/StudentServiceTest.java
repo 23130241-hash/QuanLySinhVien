@@ -10,6 +10,6 @@ public class StudentServiceTest {
         Student student = new Student("Phu", 20);
         StudentService service = new StudentService();
 
-        assertEquals(false, service.isAdult(student)); // cố tình sai
+        assertEquals(true, service.isAdult(student)); // cố tình sai
     }
 }
